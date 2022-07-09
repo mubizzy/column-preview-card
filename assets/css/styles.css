@@ -36,7 +36,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: ;
+  background-color: var(--button-background);
   color: var(--text-color);
 }
 
@@ -57,4 +57,18 @@ ul {
 
 a {
   text-decoration: none;
+}
+button,
+input {
+  border: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
 }

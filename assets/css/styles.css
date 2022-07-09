@@ -7,10 +7,16 @@
   --first-color: hsl(31, 77%, 52%);
   --second-color: hsl(184, 100%, 22%);
   --third-color: hsl(179, 100%, 13%);
+  --Transparent: hsla(0, 0%, 100%, 0.75);
+  --button-background: hsl(0, 0%, 95%);
 
   /*======= Font and typography============= */
   --body-font: "Lexend Deca", sans-serif;
   --title-font: "Big Shoulders Display", cursive;
+  --normal-font-size: 0.938rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
 
   /* ==========FONT WEIGHT========== */
   --font-medium: 400;

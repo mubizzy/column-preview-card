@@ -5,4 +5,11 @@ font-family: "Lexend Deca", sans-serif;
 
 :root {
   --header-height: 3rem;
+
+  --body-font: "Big Shoulders Display", cursive;
+  --title-font: "Lexend Deca", sans-serif;
+
+  /* ==========FONT WEIGHT========== */
+  --font-medium: 400;
+  --font-semi-bold: 700;
 }

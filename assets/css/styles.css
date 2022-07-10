@@ -53,7 +53,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--button-background);
-  color: var(--text-color);
+  color: var(--button-background);
 }
 
 html {
@@ -79,6 +79,7 @@ input {
   border: none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
 }
 
 button {
@@ -105,4 +106,35 @@ input {
   max-width: 968px;
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
+}
+
+.grid {
+  display: grid;
+}
+
+/* First Car Description */
+.car__description {
+  margin-bottom: var(--mb-2);
+  color: var(--button-background);
+  font-weight: var(--font-medium);
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--button-background);
+  color: var(--first-color);
+  padding: 0.8rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+  border-radius: 3rem;
+}
+
+.sedan__color {
+  background-color: var(--first-color);
+}
+.car__data {
+  padding: 3rem 2.5rem;
+}
+.button:hover {
+  background-color: var(--Transparent);
 }

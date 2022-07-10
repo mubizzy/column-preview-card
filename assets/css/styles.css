@@ -14,13 +14,20 @@
   --body-font: "Lexend Deca", sans-serif;
   --title-font: "Big Shoulders Display", cursive;
   --normal-font-size: 0.938rem;
-  --h1-font-size: 1.5rem;
+  --h1-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
 
   /* ==========FONT WEIGHT========== */
   --font-medium: 400;
   --font-semi-bold: 700;
+
+  /*========== Margenes ==========*/
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
 
   @media screen and (min-width: 968px) {
     :root {
@@ -30,6 +37,15 @@
       --normal-font-size: 1rem;
     }
   }
+}
+
+/*=============== BASE ===============*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -81,7 +97,12 @@ input {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
-  text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: var(--mb-2);
+}
+
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1);
+  margin-right: var(--mb-1);
 }

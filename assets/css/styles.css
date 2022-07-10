@@ -112,7 +112,7 @@ input {
   display: grid;
 }
 
-/* First Car Description */
+/*==================== First Car ======================*/
 .car__description {
   margin-bottom: var(--mb-2);
   color: var(--button-background);
@@ -137,4 +137,7 @@ input {
 }
 .button:hover {
   background-color: var(--Transparent);
+}
+.svg__img {
+  margin-bottom: var(--mb-1-5);
 }

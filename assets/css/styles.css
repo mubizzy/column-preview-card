@@ -117,12 +117,12 @@ input {
   margin-bottom: var(--mb-2);
   color: var(--button-background);
   font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
 }
 
 .button {
   display: inline-block;
   background-color: var(--button-background);
-  color: var(--first-color);
   padding: 0.8rem 1.5rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
@@ -139,11 +139,22 @@ input {
 }
 
 .car__container {
-  gap: 1rem;
+  /* grid-template-columns: repeat(3, 1fr); */
 }
 .button:hover {
   background-color: var(--Transparent);
 }
 .svg__img {
   margin-bottom: var(--mb-1-5);
+}
+
+.suv__color {
+  background-color: var(--second-color);
+}
+
+.button1 {
+  color: var(--first-color);
+}
+.button2 {
+  color: var(--second-color);
 }

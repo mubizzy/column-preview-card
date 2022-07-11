@@ -134,7 +134,9 @@ input {
 }
 .car__data {
   padding: 3rem 2.5rem;
+  gap: 1rem;
 }
+
 .button:hover {
   background-color: var(--Transparent);
 }

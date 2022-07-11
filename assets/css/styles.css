@@ -98,6 +98,7 @@ input {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  font-weight: var(--font-semi-bold);
   text-transform: uppercase;
   margin-bottom: var(--mb-2);
 }

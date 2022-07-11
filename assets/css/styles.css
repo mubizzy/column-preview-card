@@ -139,9 +139,9 @@ input {
   padding: 3rem 3.5rem;
 }
 
-.car__container {
+/* .car__container {
   /* grid-template-columns: repeat(3, 1fr); */
-}
+/* } */
 .button:hover {
   background-color: var(--Transparent);
 }

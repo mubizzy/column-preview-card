@@ -127,6 +127,7 @@ input {
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
   border-radius: 3rem;
+  width: 60%;
 }
 
 .sedan__color {
@@ -134,7 +135,7 @@ input {
 }
 .car__data {
   display: grid;
-  padding: 3rem 2.5rem;
+  padding: 3rem 3.5rem;
 }
 
 .car__container {

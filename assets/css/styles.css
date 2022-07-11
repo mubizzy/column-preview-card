@@ -133,10 +133,13 @@ input {
   background-color: var(--first-color);
 }
 .car__data {
+  display: grid;
   padding: 3rem 2.5rem;
-  gap: 1rem;
 }
 
+.car__container {
+  gap: 1rem;
+}
 .button:hover {
   background-color: var(--Transparent);
 }

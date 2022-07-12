@@ -2,14 +2,12 @@
 
 ### Screenshot
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-design.jpg)
-
-![Design preview for the 3-column preview card component coding challenge](./design/mobile-design.jpg)
+![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://columnsite.netlify.app/)
-- Live Site URL: [Add live site URL here](https://columnsite.netlify.app/))
+- Solution URL: ![Add solution URL here](https://columnsite.netlify.app/)
+- Live Site URL: ![Add live site URL here](https://columnsite.netlify.app/)
 
 ### Built with
 

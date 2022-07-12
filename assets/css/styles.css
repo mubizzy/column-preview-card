@@ -159,3 +159,11 @@ input {
 .button2 {
   color: var(--second-color);
 }
+
+.button3 {
+  color: var(--third-color);
+}
+
+.luxury__color {
+  background-color: var(--third-color);
+}

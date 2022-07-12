@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: ![Add solution URL here](https://columnsite.netlify.app/)
-- Live Site URL: ![Add live site URL here](https://columnsite.netlify.app/)
+- Solution URL: [Add solution URL here](https://columnsite.netlify.app/)
+- Live Site URL: [Add live site URL here](https://columnsite.netlify.app/)
 
 ### Built with
 

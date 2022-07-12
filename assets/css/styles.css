@@ -252,6 +252,10 @@ input {
   }
 
   .button {
-    width: 63%;
+    width: 65%;
+  }
+
+  .car__description {
+    margin-bottom: 4rem;
   }
 }

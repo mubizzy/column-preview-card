@@ -164,3 +164,7 @@ input {
 .luxury__color {
   background-color: var(--third-color);
 }
+.container {
+  display: grid;
+  box-shadow: -1px 0 4px rgba(79, 0, 236, 0.15);
+}

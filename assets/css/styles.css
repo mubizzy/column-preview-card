@@ -141,6 +141,9 @@ input {
 
 .button:hover {
   background-color: var(--Transparent);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
 }
 .svg__img {
   margin-bottom: var(--mb-1-5);

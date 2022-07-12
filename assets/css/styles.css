@@ -113,7 +113,7 @@ input {
   display: grid;
 }
 
-/*==================== First Car ======================*/
+/* =================Generals================ */
 .car__description {
   margin-bottom: var(--mb-2);
   color: var(--button-background);
@@ -121,6 +121,15 @@ input {
   font-size: var(--normal-font-size);
 }
 
+.car__data {
+  display: grid;
+  padding: 3rem 3.5rem;
+}
+
+.svg__img {
+  margin-bottom: var(--mb-1-5);
+}
+/* =====================Buttons==================== */
 .button {
   display: inline-block;
   background-color: var(--button-background);
@@ -131,51 +140,47 @@ input {
   width: 100%;
 }
 
-.sedan__color {
-  background-color: var(--first-color);
-}
-.car__data {
-  display: grid;
-  padding: 3rem 3.5rem;
-}
-
 .button:hover {
   background-color: var(--Transparent);
-  color: hsl(0, 0%, 95%);
-  border: 1px solid hsl(0, 0%, 95%);
+  color: var(--button-background);
+  border: 1px solid --button-background;
   cursor: pointer;
 }
-.svg__img {
-  margin-bottom: var(--mb-1-5);
-}
 
-.suv__color {
-  background-color: var(--second-color);
+/*==================== First Car ======================*/
+.sedan__color {
+  background-color: var(--first-color);
 }
 
 .button1 {
   color: var(--first-color);
 }
+.boarder-radius {
+  border-radius: 10px 10px 0px 0px;
+}
+
+/*==================== Second Car ======================*/
+
+.suv__color {
+  background-color: var(--second-color);
+}
+
 .button2 {
   color: var(--second-color);
 }
 
-.button3 {
-  color: var(--third-color);
-  display: flex;
-  align-items: center;
-}
+/*==================== Third Car ======================*/
 
 .luxury__color {
   background-color: var(--third-color);
 }
 
-.boarder-radius {
-  border-radius: 10px 10px 0px 0px;
-}
-
 .boarder-radius2 {
   border-radius: 0px 0px 10px 10px;
+}
+
+.button3 {
+  color: var(--third-color);
 }
 
 /*============MEDIA QUERIES================ */

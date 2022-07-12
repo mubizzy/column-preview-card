@@ -168,3 +168,6 @@ input {
   display: grid;
   box-shadow: -1px 0 4px rgba(79, 0, 236, 0.15);
 }
+.boarder-radius {
+  border-radius: 10px 10px 0px 0px;
+}

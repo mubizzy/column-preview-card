@@ -128,7 +128,7 @@ input {
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
   border-radius: 3rem;
-  width: 60%;
+  width: 100%;
 }
 
 .sedan__color {
@@ -162,6 +162,8 @@ input {
 
 .button3 {
   color: var(--third-color);
+  display: flex;
+  align-items: center;
 }
 
 .luxury__color {

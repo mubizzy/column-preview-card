@@ -172,3 +172,12 @@ input {
 .boarder-radius2 {
   border-radius: 0px 0px 10px 10px;
 }
+
+/*============MEDIA QUERIES================ */
+/* Fro small devices */
+
+@media screen and (max-width: 375px) {
+  .section {
+    padding: 0rem 0 1rem;
+  }
+}

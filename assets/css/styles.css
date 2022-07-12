@@ -185,12 +185,18 @@ input {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 375px) {
   .section {
     padding: 0rem 0 1rem;
   }
   .button {
     width: 60%;
+  }
+}
+
+@media screen and (min-width: 444px) {
+  .button {
+    width: 43%;
   }
 }
 

@@ -193,4 +193,16 @@ input {
     justify-content: center;
     align-items: center;
   }
+
+  .car__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .boarder-radius {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .boarder-radius2 {
+    border-radius: 0px 10px 10px 0px;
+  }
 }

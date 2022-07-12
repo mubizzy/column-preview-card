@@ -176,9 +176,48 @@ input {
 /*============MEDIA QUERIES================ */
 /* Fro small devices */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .section {
     padding: 0rem 0 1rem;
+  }
+  .button {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .section {
+    padding: 0rem 0 1rem;
+  }
+  .button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .section {
+    padding: 0rem 0 1rem;
+  }
+  .button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 0rem 0 1rem;
+  }
+
+  .car__container {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 3fr));
+  }
+
+  .boarder-radius {
+    border-radius: 10px 0px 0px;
+  }
+
+  .button {
+    width: 60%;
   }
 }
 
@@ -204,5 +243,9 @@ input {
 
   .boarder-radius2 {
     border-radius: 0px 10px 10px 0px;
+  }
+
+  .button {
+    width: 63%;
   }
 }
